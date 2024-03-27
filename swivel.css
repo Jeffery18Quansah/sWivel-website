@@ -1,0 +1,124 @@
+body {
+  /* background: linear-gradient(to bottom left, white, lightblue); */
+  background: linear-gradient(to top, rgb(230, 193, 252), rgb(178, 227, 243));
+ 
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: LeckerliOne;
+  src: url("LeckerliOne-Regular.ttf");
+}
+#mainNavbar {
+  background: linear-gradient(to left,whitesmoke,white);
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  font-family: LeckerliOne;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+  letter-spacing: 2px;
+  transition: transform 500ms 250ms;
+}
+
+.navbar-brand:hover {
+  transform: rotate(-5deg);
+}
+#period {
+  color: orangered;
+}
+
+#navLinks a {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  transition: transform 200ms, background-color 500ms;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+#navLinks a:hover {
+  background-color: skyblue;
+  
+  transform: translateY(-2px);
+}
+#socials {
+  width: 15rem;
+  border-radius: 5px;
+  background: linear-gradient(to right,pink, lightblue);
+  
+clip-path: circle(20% at  0);
+transition: all 1s  ease-in;
+}
+#socials:hover,#socials:active{
+  clip-path:circle(100%);
+}
+
+#usp p {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+#usp div{
+  background-color: whitesmoke;
+  height: 20rem;
+  width: 20rem;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 10px;
+  font-weight: 600;
+}
+#usp:last-of-type button{
+  color: black;
+  border: 1px solid rgb(189, 189, 225);
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: rgb(189, 189, 255);
+  
+}
+
+#welcome h1 {
+  font-family:  sans-serif;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+hr {
+  background-color: blue;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#welcome p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+#welcome button{
+  color: black;
+  border: 1px solid skyblue;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: white;
+  transition: border-color 1s;
+}
+#welcome button:hover,#welcome button:active{
+  border-color: black;
+}
+#welcomeImage{
+  filter:blur(2px);
+transition: filter 1s;
+}
+#welcomeImage:hover{
+  filter: none;
+}
